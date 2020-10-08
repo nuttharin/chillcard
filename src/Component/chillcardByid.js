@@ -9,7 +9,7 @@ import axios from "axios";
 
 export default function chillcardByid() {
 // const history = useHistory();
-console.log(prop.match.params.id);
+console.log(props.match.params.id);
        
   return (
     <div className="backgroundimg">
