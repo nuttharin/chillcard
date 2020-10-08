@@ -7,29 +7,29 @@ import axios from "axios";
 // import { useHistory } from "react-router-dom";
 
 
-export default function chillcardByid(props) {
+export default function chillcardByid() {
 // const history = useHistory();
-    console.log(props.match.params.id);
-      var url ;
-      var url1 = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=";
-      var url2 = "&choe=UTF-8"
-    fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
-    .then(res => res.json())
-    .then(
-      (result) => {
-        console.log(result) ;
-        url = url1+ result.data[0].url + url2 ;
-      },
-      // Note: it's important to handle errors here
-      // instead of a catch() block so that we don't swallow
-      // exceptions from actual bugs in components.
-      (error) => {
-        this.setState({
-          isLoaded: true,
-          error
-        });
-      }
-    )
+    // console.log(props.match.params.id);
+    //   var url ;
+    //   var url1 = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=";
+    //   var url2 = "&choe=UTF-8"
+    // fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
+    // .then(res => res.json())
+    // .then(
+    //   (result) => {
+    //     console.log(result) ;
+    //     url = url1+ result.data[0].url + url2 ;
+    //   },
+    //   // Note: it's important to handle errors here
+    //   // instead of a catch() block so that we don't swallow
+    //   // exceptions from actual bugs in components.
+    //   (error) => {
+    //     this.setState({
+    //       isLoaded: true,
+    //       error
+    //     });
+    //   }
+    // )
 
        
   return (
