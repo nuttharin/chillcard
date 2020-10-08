@@ -82,7 +82,7 @@ export default function chillcardByid(props) {
         }}
         // onClick = {()=>history.push("/chillmap")}
       >
-                <a href="/chillmap">ดูเเผนที่</a>
+                <a href="https://goo.gl/maps/vJAyV3o9rnQWKvq69">ดูเเผนที่</a>
 
       </Button>
       <br />
