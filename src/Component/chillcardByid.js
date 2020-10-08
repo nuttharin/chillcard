@@ -9,7 +9,26 @@ import axios from "axios";
 
 export default function chillcardByid(props) {
 // const history = useHistory();
-console.log(props.match.params.id);
+    console.log(props.match.params.id);
+    var url = "";
+    fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
+    .then(res => res.json())
+    .then(
+      (result) => {
+        console.log(result) ;
+        url = result.data[0].url ;
+      },
+      // Note: it's important to handle errors here
+      // instead of a catch() block so that we don't swallow
+      // exceptions from actual bugs in components.
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
+    )
+
        
   return (
     <div className="backgroundimg">
