@@ -29,7 +29,7 @@ const history = useHistory();
       <text className="TextPlace">สถานที่</text>
       <br />
       <br />
-      <text className="TextPlaceName">โรงเเรมเวสท์เกต เรสซิเดนท์ (WR)</text>
+      <text className="TextPlaceName">โรงเเรมเวสต์เกต เรสซิเดนซ์ (WR)</text>
       <br />
       <br />
       <text className="TextAndress">

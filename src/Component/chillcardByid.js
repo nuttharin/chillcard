@@ -37,7 +37,6 @@ export default function chillcardByid(props) {
       <Logo className="LogoChill" />
       <br />
       <br />
-        <text  className="TextInvite">{}</text>
       <text  className="TextInvite">ขอเชิญเข้าสู่</text>
       <br />
       <br />
@@ -52,7 +51,7 @@ export default function chillcardByid(props) {
       <text className="TextPlace">สถานที่</text>
       <br />
       <br />
-      <text className="TextPlaceName">โรงเเรมเวสท์เกต เรสซิเดนท์ (WR)</text>
+      <text className="TextPlaceName">โรงเเรมเวสต์เกต เรสซิเดนซ์ (WR)</text>
       <br />
       <br />
       <text className="TextAndress">
