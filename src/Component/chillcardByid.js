@@ -43,6 +43,9 @@ this.state = {
       }
     )
 
+    const {  items } = this.state;
+
+
        
   return (
     <div className="backgroundimg">
