@@ -9,13 +9,14 @@ import axios from "axios";
 
 export default function chillcardByid() {
 // const history = useHistory();
-console.log(props.match.params.id);
+console.log(match.params.id);
        
   return (
     <div className="backgroundimg">
       <Logo className="LogoChill" />
       <br />
       <br />
+        <text  className="TextInvite">{}</text>
       <text  className="TextInvite">ขอเชิญเข้าสู่</text>
       <br />
       <br />
