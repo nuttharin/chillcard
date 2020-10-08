@@ -1,6 +1,7 @@
 import React from 'react'
 import ChillCard from "../src/Component/chillcard";
 import ChillMap from "../src/Component/chillmap";
+import chillcardByid from "../src/Component/chillcardByid";
 import {BrowserRouter as Router ,Redirect,Route, useParams } from "react-router-dom";
 
 
@@ -20,6 +21,8 @@ export default function App() {
         ></Route>
     <Route path= "/chillmap" component={ChillMap}></Route>
     <Route path= "/chillcard" component = {ChillCard}></Route>
+    <Route path= "/chillcard/:id" component = {chillcardByid}></Route>
+
   </Router>
   )
   
