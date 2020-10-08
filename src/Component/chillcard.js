@@ -49,9 +49,9 @@ const history = useHistory();
           marginLeft: 60,
           borderRadius : 16
         }}
-        onClick = {()=>history.push("/chillmap")}
+        //onClick = {()=>history.push("/chillmap")}
       >
-        ดูเเผนที่
+        <a href="/chillmap">ดูเเผนที่</a>
       </Button>
       <br />
       <br />
