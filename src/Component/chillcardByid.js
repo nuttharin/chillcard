@@ -4,11 +4,11 @@ import { ReactComponent as Logo } from "../img/Logo.svg";
 import "fontsource-roboto";
 import { Button } from "@material-ui/core";
 import axios from "axios";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 
 export default function chillcardByid() {
-const history = useHistory();
+// const history = useHistory();
        
   return (
     <div className="backgroundimg">
@@ -49,9 +49,10 @@ const history = useHistory();
           marginLeft: 60,
           borderRadius : 16
         }}
-        onClick = {()=>history.push("/chillmap")}
+        // onClick = {()=>history.push("/chillmap")}
       >
-        ดูเเผนที่
+                <a href="/chillmap">ดูเเผนที่</a>
+
       </Button>
       <br />
       <br />
