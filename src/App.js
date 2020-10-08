@@ -19,7 +19,7 @@ export default function App() {
           )}
         ></Route>
     <Route path= "/chillmap" component={ChillMap}></Route>
-    <Route path= "/chillcard" component = {ChillCard}></Route>
+    <Route path= "/chillcard/:id" component = {ChillCard}></Route>
   </Router>
   )
   
