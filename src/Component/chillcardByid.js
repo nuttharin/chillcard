@@ -81,7 +81,7 @@ export default function chillcardByid(props) {
       <br />
       <br />
       
-      <img className = "QRCodeStyle" src={url} ></img>
+      <img className = "QRCodeStyle" src={{url}} ></img>
        
     </div>
   );
