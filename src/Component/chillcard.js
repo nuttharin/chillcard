@@ -4,11 +4,11 @@ import { ReactComponent as Logo } from "../img/Logo.svg";
 import "fontsource-roboto";
 import { Button } from "@material-ui/core";
 import axios from "axios";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 
 export default function Chillcard() {
-const history = useHistory();
+// const history = useHistory();
        
   return (
     <div className="backgroundimg">
