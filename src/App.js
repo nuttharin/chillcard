@@ -12,13 +12,14 @@ export default function App() {
 
   return (
   <Router>
-    <Route
+    {/* <Route
           exact={true}
           path="/"
           component={() => (
             <Redirect to="/chillcard" />
           )}
-        ></Route>
+        ></Route> */}
+    <Route path= "/" component={ChillCard}></Route>
     <Route path= "/chillmap" component={ChillMap}></Route>
     <Route path= "/chillcard" component = {ChillCard}></Route>
     <Route path= "/chillcard/:id" component = {chillcardByid}></Route>
