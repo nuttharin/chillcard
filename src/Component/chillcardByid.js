@@ -19,6 +19,8 @@ export default function chillcardByid(props) {
       (result) => {
         console.log(result) ;
         url = url1+ result.data[0].url + url2 ;
+        console.log(url) ;
+
       },
       // Note: it's important to handle errors here
       // instead of a catch() block so that we don't swallow
