@@ -14,27 +14,27 @@ export default function chillcardByid(props) {
       var url = "5" ;
       var url1 = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=";
       var url2 = "&choe=UTF-8"
-      async function xx(){
-            await fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
-            .then(res => res.json())
-            .then(
-            (result) => {
-                console.log(result) ;
-                url = await url1+ result.data[0].url + url2 ;
-                console.log(url) ;
-                return url ;
+    //   async function xx(){
+    //         await fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
+    //         .then(res => res.json())
+    //         .then(
+    //         (result) => {
+    //             console.log(result) ;
+    //             url = await url1+ result.data[0].url + url2 ;
+    //             console.log(url) ;
+    //             return url ;
         
             
         
-            },
-            (error) => {
-                this.setState({
-                isLoaded: true,
-                error
-                });
-            }
-            )
-      }
+    //         },
+    //         (error) => {
+    //             this.setState({
+    //             isLoaded: true,
+    //             error
+    //             });
+    //         }
+    //         )
+    //   }
     
    
 
