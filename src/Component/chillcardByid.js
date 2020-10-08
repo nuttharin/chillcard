@@ -7,9 +7,9 @@ import axios from "axios";
 // import { useHistory } from "react-router-dom";
 
 
-export default function chillcardByid() {
+export default function chillcardByid(props) {
 // const history = useHistory();
-console.log(this.props.match.params.id);
+console.log(props.match.params.id);
        
   return (
     <div className="backgroundimg">
