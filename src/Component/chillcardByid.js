@@ -10,13 +10,15 @@ import axios from "axios";
 export default function chillcardByid(props) {
 // const history = useHistory();
     console.log(props.match.params.id);
-    var url = "";
+      var url ;
+      var url1 = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=";
+      var url2 = "&choe=UTF-8"
     fetch("http://202.44.235.51:200/get/dataInvitationByID?id="+props.match.params.id)
     .then(res => res.json())
     .then(
       (result) => {
         console.log(result) ;
-        url = result.data[0].url ;
+        url = url1+ result.data[0].url + url2 ;
       },
       // Note: it's important to handle errors here
       // instead of a catch() block so that we don't swallow
@@ -78,7 +80,7 @@ export default function chillcardByid(props) {
       <br />
       <br />
       
-      <img className = "QRCodeStyle" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://202.44.235.51/QRcode/index.php/&choe=UTF-8" ></img>
+      <img className = "QRCodeStyle" src="" ></img>
        
     </div>
   );
