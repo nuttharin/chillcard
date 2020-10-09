@@ -6,6 +6,13 @@
     height: 100%;
     width: 100%;
   }
+  .transectionBg {
+    background-image: url(../img/bg2.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+  }
   .LogoChill {
       margin-top: 48px;
       margin-left: 130px; 
