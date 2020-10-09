@@ -19,10 +19,10 @@ export default function transection1(props) {
       <Logo2 className="LogoChill" />
       <br />
       <br />
-      <text  className="TextInvite">ขอเชิญเข้าสู่</text>
+      <text  className="TextInvite">ใบบันทึกรายงาน</text>
       <br />
       <br />
-      <text className="TextLaunchEvent">งานเปิดตัว</text>
+  <text className="TextLaunchEvent">{new Date().toDateString()}</text>
       <br />
       <text className="TextChillAll">CHILL ALL</text>
       <br />
