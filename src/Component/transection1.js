@@ -1,6 +1,6 @@
 import React  from 'react';
 import "../css/chillcard.css";
-import { ReactComponent as Logo } from "../img/logo3.png";
+import { ReactComponent as Logo } from "../img/logo3.svg";
 import { Button } from "@material-ui/core";
 import axios from "axios";
 // import { useHistory } from "react-router-dom";
