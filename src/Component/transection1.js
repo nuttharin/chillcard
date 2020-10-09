@@ -15,7 +15,7 @@ export default function transection1(props) {
        
   return (
     <div className="transectionBg">
-      <Logo className="LogoChill" />
+      {/* <Logo className="LogoChill" /> */}
       <Logo2 className="LogoChill" />
       <br />
       <br />
