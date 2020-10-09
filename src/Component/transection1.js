@@ -1,6 +1,6 @@
 import React  from 'react';
 import "../css/chillcard.css";
-import { ReactComponent as Logo } from "../img/Logo.svg";
+import { ReactComponent as Logo } from "../img/logo2.png";
 import { Button } from "@material-ui/core";
 import axios from "axios";
 // import { useHistory } from "react-router-dom";
@@ -41,20 +41,7 @@ export default function transection1(props) {
       <text className=" TextGift"> *งดรับของขวัญ ขอบคุณในไมตรีจิต*</text>
       <br />
       <br />
-      <Button
-        style={{
-          backgroundColor: "#F1F1F1",
-          height: 55,
-          width: 258,
-          marginTop: 33,
-          marginLeft: 60,
-          borderRadius : 16
-        }}
-        // onClick = {()=>history.push("/chillmap")}
-      >
-                <a href="https://goo.gl/maps/vJAyV3o9rnQWKvq69">ดูเเผนที่</a>
-
-      </Button>
+      
       <br />
       <br />
         
