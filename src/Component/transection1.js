@@ -20,6 +20,7 @@ export default function transection1(props) {
       <br />
       <br />
       <text  className="TextInvite">ใบบันทึกรายงาน</text>
+      <text class="TextInvite" style="margin-left: 90px;">Transection Record</text>
       <br />
       <br />
       <text className="TextLaunchEvent">{new Date().toDateString()}</text>
