@@ -1,6 +1,8 @@
 import React  from 'react';
 import "../css/chillcard.css";
-import { ReactComponent as Logo } from "../img/logo.svg";
+import { ReactComponent as Logo } from "../img/Logo.svg";
+import { ReactComponent as Logo2 } from "../img/logo3.svg";
+
 import { Button } from "@material-ui/core";
 import axios from "axios";
 // import { useHistory } from "react-router-dom";
@@ -14,6 +16,7 @@ export default function transection1(props) {
   return (
     <div className="transectionBg">
       <Logo className="LogoChill" />
+      <Logo2/>
       <br />
       <br />
       <text  className="TextInvite">ขอเชิญเข้าสู่</text>
