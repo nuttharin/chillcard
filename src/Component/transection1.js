@@ -23,7 +23,7 @@ export default function transection1(props) {
       <text class="TextInvite2">Transection Record</text>
       <br />
       <br />
-      <text className="TextLaunchEvent">{new Date().toDateString()}</text>
+      {/* <text className="TextLaunchEvent">{new Date().toDateString()}</text>
       <br />
       <text className="TextChillAll">CHILL ALL</text>
       <br />
@@ -41,16 +41,21 @@ export default function transection1(props) {
         8/8 ตำบลบางม่วง อำเภอบางใหญ่ จังหวัดนนทบุรี 11140{" "}
       </text>
       <br />
-      <br />
-      <text className=" TextGift"> *งดรับของขวัญ ขอบคุณในไมตรีจิต*</text>
-      <br />
-      <br />
-      
-      <br />
-      <br />
+      <br /> */}
+      <Container>
+        <Row>
+          <Col>1 of 2</Col>
+          <Col>2 of 2</Col>
+        </Row>
+        <Row>
+          <Col>1 of 3</Col>
+          <Col>2 of 3</Col>
+          <Col>3 of 3</Col>
+        </Row>
+      </Container>   
         
         <img className = "QRCodeStyle" src={"https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://202.44.235.51/QRcode/index.php?user="+props.match.params.id+"&choe=UTF-8"} ></img>
-        <text className=" TextGift"> **นำใบบันทึกรายการไปรับเงินที่ผู้ให้บริการ**</text>
+        <text className="TextGift"> **นำใบบันทึกรายการไปรับเงินที่ผู้ให้บริการ**</text>
 
        
     </div>
