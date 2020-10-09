@@ -89,7 +89,8 @@ export default function chillcardByid(props) {
       <br />
         
         <img className = "QRCodeStyle" src={"https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://202.44.235.51/QRcode/index.php?user="+props.match.params.id+"&choe=UTF-8"} ></img>
-      
+        <text className=" TextGift"> **นำใบบันทึกรายการไปรับเงินที่ผู้ให้บริการ**</text>
+
        
     </div>
   );

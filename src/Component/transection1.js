@@ -20,7 +20,7 @@ export default function transection1(props) {
       <br />
       <br />
       <text  className="TextInvite">ใบบันทึกรายงาน</text>
-      <text class="TextInvite" style="margin-left: 90px;">Transection Record</text>
+      <text class="TextInvite2">Transection Record</text>
       <br />
       <br />
       <text className="TextLaunchEvent">{new Date().toDateString()}</text>
@@ -50,7 +50,8 @@ export default function transection1(props) {
       <br />
         
         <img className = "QRCodeStyle" src={"https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=http://202.44.235.51/QRcode/index.php?user="+props.match.params.id+"&choe=UTF-8"} ></img>
-      
+        <text className=" TextGift"> **นำใบบันทึกรายการไปรับเงินที่ผู้ให้บริการ**</text>
+
        
     </div>
   );
