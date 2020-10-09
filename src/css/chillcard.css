@@ -7,11 +7,12 @@
     width: 100%;
   }
   .transectionBg {
-    background-image: url(../img/bg2.png);
+    /* background-image: url(../img/bg2.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
-    width: 100vw;
+    width: 100vw; */
+    background-color: #ffffff;
   }
   .LogoChill {
       margin-top: 48px;
