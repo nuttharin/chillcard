@@ -2,6 +2,9 @@ import React  from 'react';
 import "../css/transection.css";
 import { ReactComponent as Logo } from "../img/Logo.svg";
 import { ReactComponent as Logo2 } from "../img/logo3.svg";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import { Button } from "@material-ui/core";
 import axios from "axios";
