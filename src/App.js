@@ -24,7 +24,7 @@ export default function App() {
     <Route path= "/chillmap" component={ChillMap}></Route>
     <Route path= "/chillcard" component = {ChillCard}></Route>
     <Route path= "/chillcardID/:id" component = {chillcardByid}></Route>
-    <Route path= "/transection1" component = {transection1}></Route>
+    {/* <Route path= "/transection1" component = {transection1}></Route> */}
 
 
   </Router>
