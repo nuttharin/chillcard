@@ -16,7 +16,7 @@ export default function transection1(props) {
   return (
     <div className="transectionBg">
       <Logo className="LogoChill" />
-      <Logo2/>
+      <Logo2 className="LogoChill" />
       <br />
       <br />
       <text  className="TextInvite">ขอเชิญเข้าสู่</text>
