@@ -1,0 +1,99 @@
+ 
+.backgroundimg {
+    background-image: url(../img/BG.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+  }
+  .transectionBg {
+    /* background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100vw; */
+    background-color: #ffffff;
+  }
+  .LogoChill {
+      margin-top: 48px;
+      margin-left: 130px; 
+      height: 157px;
+      width: 112px;
+  }
+  .TextInvite {
+      margin-top: 242px;
+      margin-left: 130px;
+      font-size: 24px;
+      color : #000000;   
+  }
+  .TextLaunchEvent {
+    margin-top: 400px;
+    margin-left: 86px;
+    font-size: 45px;
+    color: #000000;
+  }
+  .TextChillAll {
+    margin-top: 363.5px;
+    margin-left: 30px;
+    font-size: 70px;
+    color: #000000;
+    text-align: center;
+  }
+  .TextInvite2 {
+      margin-top: 508px;
+      margin-left: 145px;
+      font-size: 24px;
+      color : #000000;
+  }
+  .NameGuest {
+      margin-top: 36px;
+      margin-left: 56px;
+      font-size: 24px;
+      color : #000000;
+      
+  }
+  .TextDate {
+      margin-top : 35.5px;
+      margin-left: 50px;
+      font-size: 20px;
+      color: #000000;
+  }
+  .TextPlace{
+      margin-top :44px;
+      margin-left: 160px;
+      font-size: 20px;
+      color: #000000;
+  }
+  .TextPlaceName {
+      margin-top: 16px;
+      margin-left: 50px;
+      font-size: 20px;
+      color: #000000;
+  }
+ .TextAndress {
+     margin-top: 16px;
+     margin-left: 25px;
+     font-size: 14px;
+     color: #000000;
+ }
+ .TextGift {
+     margin-top:16px;
+     margin-left: 40px;
+     font-size: 20px;
+     color: #000000;
+ }
+ .ButtonStyle {
+     margin-top :33px;
+     margin-left: 77px;
+     background-color:#000000; 
+     height: 55px;
+     width: 258px;
+ }
+ .QRCodeStyle {
+     height: 291px;
+     width: 291px;
+     margin-top: 15px;
+     margin-left: 40px;
+     border-radius: 16px;
+ }
+

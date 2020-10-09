@@ -1,5 +1,5 @@
 import React  from 'react';
-import "../css/chillcard.css";
+import "../css/transection.css";
 import { ReactComponent as Logo } from "../img/Logo.svg";
 import { ReactComponent as Logo2 } from "../img/logo3.svg";
 
@@ -22,7 +22,7 @@ export default function transection1(props) {
       <text  className="TextInvite">ใบบันทึกรายงาน</text>
       <br />
       <br />
-  <text className="TextLaunchEvent">{new Date().toDateString()}</text>
+      <text className="TextLaunchEvent">{new Date().toDateString()}</text>
       <br />
       <text className="TextChillAll">CHILL ALL</text>
       <br />
